@@ -1,0 +1,11 @@
+<h1>DC Metro Fare Calculator</h1>
+
+<form action="{% url 'price' %}">
+  <h2>Departing Station</h2>
+  <textarea name="depart" rows="5" cols="10"></textarea>
+  <br />
+  <h2>Destination Station</h2>
+  <textarea name="arrive" rows="5" cols="10"></textarea>
+  <br />
+  <input type='submit' value="Calculate" />
+</form>
